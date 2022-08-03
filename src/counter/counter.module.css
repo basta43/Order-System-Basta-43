@@ -4,7 +4,36 @@
 }
 
 .button {
-    background-color: greenyellow;
-    border-color: white;
+    background-color: rgb(47, 178, 178);
+    border-color: black;
+    border-width: thin;
     width: 50%;
+    height: 1cm;
+    font-size: 30px;
+    /* animation: glowing 1300ms infinite; */
 }
+
+.button:active{
+    background-color:rgb(30, 100, 100) ;
+    box-shadow: 0 5px rgb(30, 100, 100);
+    transform: translateY(1px);
+}
+
+.amount {
+    font-size: 21px;
+}
+
+/* @keyframes glowing {
+    0% {
+      background-color: rgb(47, 178, 178);
+      box-shadow: 0 0 5px rgb(47, 178, 178);
+    }
+    50% {
+      background-color: rgb(24, 94, 94);
+      box-shadow: 0 0 20px rgb(24, 94, 94);
+    }
+    100% {
+      background-color: #rgb(12, 47, 47);
+      box-shadow: 0 0 5px #rgb(12, 47, 47);
+    }
+  } */
