@@ -10,6 +10,7 @@ export function Item({ name, price, img, showCounter = true }) {
             <img className={styles.img} src={img} /> 
             {showCounter && <Counter />}
         </div>
-
     )
 }
+
+
