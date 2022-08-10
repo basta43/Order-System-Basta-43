@@ -15,4 +15,12 @@ export const data = [
       { name: 'whiskey', img: '#', price: 5 },
     ],
   },
+  {
+    categoryName: 'soft drinks',
+    items: [
+      { name: 'coca cola', img: '#', price: 5 },
+      { name: 'sprite', img: '#', price: 5 },
+      { name: 'coca cola zero', img: '#', price: 5 },
+    ],
+  },
 ];
