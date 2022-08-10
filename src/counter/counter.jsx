@@ -5,9 +5,9 @@ export function Counter({}) {
     const [amount, setAmount] = useState(0);
     return (
         <div className={styles.counter}>
-            <button onClick={() => setAmount(amount - 1)}>-</button>
+            <button className={styles.button} onClick={() => setAmount(amount - 1)}>-</button>
             <div>{amount}</div>
-            <button onClick={() => setAmount(amount + 1)}>+</button>
+            <button className={styles.button} onClick={() => setAmount(amount + 1)}>+</button>
         </div>
     )
 }
