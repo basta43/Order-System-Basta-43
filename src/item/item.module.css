@@ -1,6 +1,24 @@
-.item {
-    border: 1px solid black;
+.item{
+    border: 2px solid black;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    max-height: 155px;
 }
+
+.name{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.img{
+    width: 40%; /* width of container */
+    height: 20%; /* height of container */
+    object-fit: scale-down;
+}
+

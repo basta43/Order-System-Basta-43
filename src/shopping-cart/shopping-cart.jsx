@@ -1,10 +1,21 @@
 import React from 'react';
 import styles from './shopping-cart.module.css';
+import {Item} from '../item';
+import { Counter } from '../counter';
 
-export function ShoppingCart({}) {
+export function ShoppingCart() {
+    const price = Item.price;
+    const name = Item.name;
+    const amount = Counter.amount;
+    const line = {name}+" " + {price}+" "+ {amount} + " = " + String({amount}*{price});
     return (
         <div className={styles.shoppingCart}>
-            shopping cart
+            <h2>shopping cart</h2>
+            <div id="line"> {line} </div>
+            <div className={styles.orderLine}>
+                
+            </div>
         </div>
     )
 }
+

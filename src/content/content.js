@@ -2,9 +2,11 @@ export const data = [
   {
     categoryName: 'beers',
     items: [
-      { name: 'goldstar', img: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Goldstar_logo.svg/220px-Goldstar_logo.svg.png', price: 15 },
-      { name: 'carlsberg', img: '#', price: 15 },
+      { name: 'goldstar', img: 'https://www.logolynx.com/images/logolynx/s_33/3341b415987d01c756c3e6ec6f55e58b.jpeg', price: 15 },
+      { name: 'carlsberg', img: 'https://seeklogo.com/images/C/Carlsberg-logo-1738A5D435-seeklogo.com.png', price: 15 },
       { name: 'corona', img: '#', price: 15 },
+      { name: 'carlsberg', img: '#', price: 15 },
+
     ],
   },
   {
