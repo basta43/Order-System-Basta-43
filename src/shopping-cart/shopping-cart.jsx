@@ -3,11 +3,8 @@ import styles from './shopping-cart.module.css';
 import {Item} from '../item';
 import { Counter } from '../counter';
 
-export function ShoppingCart() {
-    const price = Item.price;
-    const name = Item.name;
-    const amount = Counter.amount;
-    const line = {name}+" " + {price}+" "+ {amount} + " = " + String({amount}*{price});
+export function ShoppingCart(props) {
+    let line =1;
     return (
         <div className={styles.shoppingCart}>
             <h2>shopping cart</h2>
