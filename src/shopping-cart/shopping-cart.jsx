@@ -17,7 +17,7 @@ export function ShoppingCart() {
   return (
     <div className={styles.shoppingCart}>
       <h2>shopping cart</h2>
-      {order.map((item) => {
+      {order.drinks.map((item) => {
         return (
           <div>
             <div>{item.name}</div>
