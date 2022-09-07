@@ -4,10 +4,9 @@ import styles from './shopping-cart.module.css';
 // import { Counter } from '../counter';
 const order = {
   drinks: [
-    { name: 'goldstar', price: 15, amount: 1  },
-    { name: 'carlsberg', price: 15, amount: 3  },
-    { name: 'arak', price: 15, amount: 5  },
-      
+    { name: 'goldstar', price: 15, amount: 1 },
+    { name: 'carlsberg', price: 15, amount: 3 },
+    { name: 'arak', price: 15, amount: 5 },
   ]
 }
 
